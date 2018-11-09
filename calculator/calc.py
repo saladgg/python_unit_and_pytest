@@ -14,3 +14,6 @@ def divide(x, y):
     if y == 0:
         raise ValueError('cannot divide by 0!')
     return x / y
+
+def modulus(x, y):
+    return x % y

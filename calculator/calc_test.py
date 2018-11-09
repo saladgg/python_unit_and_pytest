@@ -26,6 +26,12 @@ def test_divide():
     assert calc.divide(-5, 2) == -2.5
     assert calc.divide(-15, -3) == 5
 
+def test_modulus():
+    assert calc.modulus(5, 2) == 1
+    assert calc.modulus(-5, 2) == 1
+    assert calc.modulus(-15, -3) == 0
+
+
 
 if __name__ == '__main__':
     pytest.main()
